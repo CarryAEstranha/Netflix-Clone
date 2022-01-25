@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix | Clone</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+
+    <script src="https://kit.fontawesome.com/4e17347895.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="page-header">
+        <img alt="Logo" src="./assets/logo.png">
+
+        <nav id="header-navigation">
+            <a href="#">Inicio</a>
+            <a href="#">Filmes</a>
+            <a href="#">Séries</a>
+            <a href="#">Documentários</a>
+        </nav>
+    </header>
+
+    <main id="page-main">
+        <section id="hero-media-container">
+            <div id="video-container">
+                <video id="player" autoplay loop muted>
+                    <source src="./assets/trailer.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div id="hero-media-information">
+                <div id="blank-line"></div>
+
+                <div id="information-container">
+                    <div id="logo-serie-container">
+                        <img alt="Logo" src="./assets/logo auxiliar.png">
+                        <span>SÉRIE</span>
+                    </div>
+
+                    <img alt="Desencanto logo" id="serie-logo" src="./assets/serie logo.png">
+                    
+                    <p id="sinopse">Toda princesa tem seus deveres, mas ela quer mesmo é encher a cara. E com um elfo e um demônio como parceiros, levar o rei à loucura será uma tarefa fácil.</p>
+                
+                    <div id="information-buttons-container">
+                        <button onclick="openNewWindow(0)">
+                            <img alt="Play" src="./assets/play.svg">
+
+                            Assistir
+                        </button>
+                        <button onclick="openNewWindow(1)">
+                            <img alt="Information" src="/assets/information.svg">
+
+                            Mais informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="media-slider-container">
+        <h1 id="slider-title">Em alta</h1>
+
+        <div id="media-slider"></div>
+    </section>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
