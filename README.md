@@ -20,7 +20,7 @@ A aplicação deve reconstruir a interface do Netflix. Opcionalmente clicar em a
 
 ### Screenshot
 
-![Front](https://user-images.githubusercontent.com/53675070/151078259-a77ba261-4da5-4393-9bd0-f43a9a72d8da.png)
+![Front](https://user-images.githubusercontent.com/53675070/151079131-3e06fa2c-6782-4b3a-885c-db0633e0d89b.png)
 
 ### Links
 
