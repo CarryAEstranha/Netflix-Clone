@@ -24,7 +24,7 @@ A aplicação deve reconstruir a interface do Netflix. Opcionalmente clicar em a
 
 ### Links
 
-- Live Site URL: https://rest-country-api.web.app
+- Live Site URL: https://carryaestranha.github.io/Netflix-Clone/
 
 ## My process
 
